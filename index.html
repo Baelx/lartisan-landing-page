@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Radley" rel="stylesheet">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
@@ -22,7 +22,7 @@
 
   <div class="main">
     <header>
-      <img src="logo.jpg" alt="">
+      <img class="header-logo" src="logo.jpg" alt="">
     </header>
     <div class="content">
       <h1>Bientôt en ligne</h1>
@@ -31,23 +31,28 @@
       <!-- Modal HTML embedded directly into document -->
       <div id="the-modal" class="modal">
 
-      <!-- <h2 class="w3-center">Promotions</h2> -->
+        <h2 class="w3-center">Promotions</h2>
 
-      <div class="w3-content w3-display-container">
-        <img class="mySlides" src="food.jpg" >
-        <img class="mySlides" src="food2.jpg">
+        <div class="w3-content w3-display-container">
+          <img class="mySlides" src="food.jpg" >
+          <img class="mySlides" src="food2.jpg">
 
-        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-      </div>
+          <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
 
       </div>
 
       <!-- Link to open the modal -->
-      <p><a href="#the-modal" rel="modal:open">Voir nos promotions</a></p>
+      <!-- <p><a href="#the-modal" rel="modal:open">Voir nos promotions</a></p> -->
 
-      <h3>Nous Joindre<h3>
+      <h3>Nous Joindre</h3>
+
+      <div class="social-links">
+        <a href="https://www.facebook.com/boulangerie.lacampaillette"><img src="icons8-facebook-50.png" alt=""></a>
+        <a href="https://www.instagram.com/delicessansgluten/"><img src="icons8-instagram-50.png" alt=""></a>
       </div>
     </div>
-  </body>
-  </html>
+  </div>
+</body>
+</html>
