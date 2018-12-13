@@ -1,0 +1,38 @@
+p {
+  -webkit-animation: fadein 2.5s, moveDown 1.5s;
+  animation:  fadein 2.5s, moveDown 1.5s;
+}
+
+h1 {
+  -webkit-animation: fadein 2.5s, moveDownMore 1.5s;
+  animation: fadein 2.5s, moveDownMore 1.5s;
+}
+
+
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes moveDown {
+  from { top: -30px; }
+  to   { top: 0px; }
+}
+@-webkit-keyframes moveDown {
+  from { top: -30px; }
+  to   { top: 0px; }
+}
+
+@keyframes moveDownMore {
+  from { top: -30px; }
+  to   { top: 25px; }
+}
+@-webkit-keyframes moveDownMore {
+  from { top: -30px; }
+  to   { top: 25px; }
+}
