@@ -1,0 +1,8 @@
+@import "../../../node_modules/normalize-scss/sass/normalize/_import-now";
+@import "base/_global";
+@import "modules/_layout";
+@import "modules/_animations";
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700');
+@import url('https://fonts.googleapis.com/css?family=Radley+SC:400');
